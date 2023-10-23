@@ -22,11 +22,36 @@ app.get('/about', (req, res)=>{
 })
 
 //Dynamic PROJECT pages
-app.get('/project', (req, res)=>{
-    res.render('project');
+app.get('/project/:id', (req, res)=>{
+    const { id } = req.params;
+    const projectName = projects[id].project_name;
+    const description = projects[id].description;
+    const technologies = projects[id].technologies;
+    const liveLink = projects[id].live_link;
+    const githubLink = projects[id].github_link;
+    const imagesArray = projects[id].image_urls;
+
+    const templateData = {id, projectName, description, technologies, liveLink, githubLink, imagesArray}
+    
+    res.render('project', templateData);
 })
 
-//==================================================================================
+//=========================================ERRORS=====================================
+app.use((req,res,next)=>{
+    const err = new Error();
+    err.status = 404;
+    err.message = `${err.status} Error - Route not found`
+    res.send(err.message)
+})
+
+app.use((err, req, res, next)=>{
+    err.status = 500;
+    err.message = 'Unfortunately the project you requested does not exist';
+    console.log(`${err.status} - ${err.message}`)
+    res.send(`${err.status} - ${err.message}`)
+})
+
+//====================================================================================
 //PORT LISTENER
 app.listen(3000, ()=>{
     console.log('App running on PORT 3000!')
