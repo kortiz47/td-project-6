@@ -2,48 +2,48 @@
     "projects": [
         {
             "id": "0",
-            "project_name": "Random Quote Generator",
+            "project_name": "random quote generator",
             "description": "generates random quotes",
             "technologies": ["html", "css", "javascript"],
             "live_link": "https://kortiz47.github.io/td-project-1/",
             "github_link": "https://github.com/kortiz47/td-project-1",
-            "image_urls":[""]
+            "image_urls":["/static/images/td_p1_cover.png"]
         },
         {
             "id": "1",
-            "project_name": "Data Pagination and Filtering",
+            "project_name": "data pagination and filtering",
             "description": "create a directory of given employees and create pages",
             "technologies": ["html", "css", "javascript"],
             "live_link": "https://kortiz47.github.io/td-project-2/",
             "github_link": "https://github.com/kortiz47/td-project-2",
-            "image_urls":[""]
+            "image_urls":["/static/images/td_p2_cover.png"]
         },
         {
             "id": "2",
-            "project_name": "Interactive Form",
+            "project_name": "interactive form",
             "description": "creates an interactive form for a conference",
             "technologies": ["html", "css", "javascript"],
             "live_link": "https://kortiz47.github.io/td-project-3/",
             "github_link": "https://github.com/kortiz47/td-project-3",
-            "image_urls":[""]
+            "image_urls":["/static/images/td_p3_cover.png"]
         },
         {
             "id": "3",
-            "project_name": "OOP Game Show App",
+            "project_name": "OOP game show app",
             "description": "fun guessing game",
             "technologies": ["html", "css", "javascript"],
             "live_link": "https://kortiz47.github.io/td-project-4/",
             "github_link": "https://github.com/kortiz47/td-project-4",
-            "image_urls":[""]  
+            "image_urls":["/static/images/td_p4_cover.png"]  
         },
         {
             "id": "4",
-            "project_name": "Public API Requests",
+            "project_name": "public API requests",
             "description": "grabs random users from an API",
             "technologies": ["html", "css", "javascript"],
             "live_link": "https://kortiz47.github.io/td-project-5/",
             "github_link": "https://github.com/kortiz47/td-project-5",
-            "image_urls":[""]
+            "image_urls":["/static/images/td_p5_cover.png"]
         }
     ]
 }
