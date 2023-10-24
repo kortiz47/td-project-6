@@ -21,7 +21,7 @@
         {
             "id": "2",
             "project_name": "Interactive Conference Form",
-            "description": "This application hosts a conference form",
+            "description": "This application uses Client Side JS and form validation in order to host a conference registration form. This ensures you have added a valid email, added a name, and the correct amount of digits for your credit card information. Additionally, it checks to see if you have selected at least 1 conference event to attend, and blocks other events at the same time, as well as displays your total in real time as the user interacts with the application. Overall, the skills demonstrated in this project are form validation.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kortiz47.github.io/td-project-3/",
             "github_link": "https://github.com/kortiz47/td-project-3",
@@ -30,7 +30,7 @@
         {
             "id": "3",
             "project_name": "Phrase Hunter",
-            "description": "fun guessing game",
+            "description": "This application is a wordle-type game. Once the game begins it brings the user to a screen with a phrase displayed where the letters and greyed out. The objective of the game is to guess the phrase by using the on-screen keyboard or their keyboard to select letters. If a letter is selected that is part of the phrase, those letters will be displaye in the phrase. And if a user choses an incorrect letter, they will lose a life, represented by the hearts at the bottom of the screen. Once the user wins or loses the game, they have an opportunity to play again. Overall, the skills demonstrated in this game is Object-Oriented JS Programming.",
             "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
             "live_link": "https://kortiz47.github.io/td-project-4/",
             "github_link": "https://github.com/kortiz47/td-project-4",
@@ -38,9 +38,9 @@
         },
         {
             "id": "4",
-            "project_name": "public API requests",
-            "description": "grabs random users from an API",
-            "technologies": ["html", "css", "javascript"],
+            "project_name": "Random Employee Directory",
+            "description": "This application displays 12 random users from the randomuser.me API and retrieves certain information from the API call to display on the page such as their picture, name, location, and contact information. Additionally, when clicking on employee's image, a modal window will pop up with more information about the employee and you are able to move through the employees by pressing the prev and next buttons. Finally, there is a search feature that a user can use to search up the employees based on name. The main skill demonstrated in this project is being able to use and API and manipulate the data.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Fetch and Public APIs"],
             "live_link": "https://kortiz47.github.io/td-project-5/",
             "github_link": "https://github.com/kortiz47/td-project-5",
             "image_urls":["/static/images/project5/td_p5_cover.png", "/static/images/project5/td_p5_img1.png", "/static/images/project5/td_p5_img2.png", "/static/images/project5/td_p5_img3.png"]
