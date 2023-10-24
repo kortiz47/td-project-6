@@ -40,7 +40,7 @@ app.get('/project/:id', (req, res)=>{
 app.use((req,res,next)=>{
     const err = new Error();
     err.status = 404;
-    err.message = `The route you requested does not exist. Please check the URL you requested again.`
+    err.message = `The page you requested was not found.`
     console.log(err.message);
     res.render('page-not-found', {status: err.status, message: err.message})
 })
@@ -49,7 +49,7 @@ app.use((err, req, res, next)=>{
     err.status = 500;
     err.message = 'Unfortunately, the project you requested does not exist.';
     console.log(err.message);
-    res.render('error', {status: err.status, message: err.message})
+    res.render('error', {status: err.status, message: err.message, projectsCount: projects.length})
 })
 
 //====================================================================================
