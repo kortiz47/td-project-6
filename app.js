@@ -41,14 +41,13 @@ app.use((req,res,next)=>{
     const err = new Error();
     err.status = 404;
     err.message = `${err.status} Error - Route not found`
-    res.send(err.message)
+    res.render('page-not-found', {status: err.status, message: err.message})
 })
 
 app.use((err, req, res, next)=>{
     err.status = 500;
     err.message = 'Unfortunately the project you requested does not exist';
-    console.log(`${err.status} - ${err.message}`)
-    res.send(`${err.status} - ${err.message}`)
+    res.render('error', {status: err.status, message: err.message})
 })
 
 //====================================================================================
