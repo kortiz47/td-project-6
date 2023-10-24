@@ -40,7 +40,7 @@ app.get('/project/:id', (req, res)=>{
 app.use((req,res,next)=>{
     const err = new Error();
     err.status = 404;
-    err.message = `${err.status} Error - Route not found`
+    err.message = `Error - Route not found`
     res.render('page-not-found', {status: err.status, message: err.message})
 })
 
