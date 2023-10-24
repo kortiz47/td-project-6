@@ -1,4 +1,13 @@
 extends layout.pug
 
 block content
-    h1 #{status} - #{message}
+    #global-error
+        h1 #{status} Error - #{message}
+        img(src='http://localhost:3000/static/images/500_error_img.png', width='850' height='550')
+        br
+        a(href='https://ginbits.com/solutions-to-the-500-internal-server-error/') Image Credit to Ginbits
+        br
+        br
+        h2
+            u
+                a(href='/') Back to Home Page

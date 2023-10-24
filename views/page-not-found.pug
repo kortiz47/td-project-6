@@ -1,4 +1,13 @@
 extends layout.pug
 
 block content
-    h1 #{status} - #{message}
+    #global-error
+        h1 #{status} Error - #{message}
+        img(src='http://localhost:3000/static/images/404_error_img.jpg', width='1000', height='550')
+        br
+        a(href='https://www.vecteezy.com/vector-art/6549647-404-landing-page') Image Credit to Vecteezy
+        br
+        br
+        h2
+            u
+                a(href='/') Back to Home Page
