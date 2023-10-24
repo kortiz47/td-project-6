@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kortiz47.github.io/td-project-3/",
             "github_link": "https://github.com/kortiz47/td-project-3",
-            "image_urls":["/static/images/project3/td_p3_cover.png"]
+            "image_urls":["/static/images/project3/td_p3_cover.png","/static/images/project3/td_p3_img1.png", "/static/images/project3/td_p3_img2.png", "/static/images/project3/td_p3_img3.png"]
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
             "live_link": "https://kortiz47.github.io/td-project-4/",
             "github_link": "https://github.com/kortiz47/td-project-4",
-            "image_urls":["/static/images/project4/td_p4_cover.png"]  
+            "image_urls":["/static/images/project4/td_p4_cover.png", "/static/images/project4/td_p4_img1.png", "/static/images/project4/td_p4_img2.png", "/static/images/project4/td_p4_img3.png"]  
         },
         {
             "id": "4",
@@ -43,7 +43,7 @@
             "technologies": ["html", "css", "javascript"],
             "live_link": "https://kortiz47.github.io/td-project-5/",
             "github_link": "https://github.com/kortiz47/td-project-5",
-            "image_urls":["/static/images/project5/td_p5_cover.png"]
+            "image_urls":["/static/images/project5/td_p5_cover.png", "/static/images/project5/td_p5_img1.png", "/static/images/project5/td_p5_img2.png", "/static/images/project5/td_p5_img3.png"]
         }
     ]
 }
